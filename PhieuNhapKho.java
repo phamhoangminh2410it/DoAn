@@ -8,7 +8,7 @@ public class PhieuNhapKho extends Phieu
 	{
 	}
 
-	public PhieuNhapKho(int ngayNhap, String maPhieu, int soPhieu, String tenKH, String tenSP, int soLuong, String diaChi, int soDT, String eMail, int soTK, int trangThai)
+	public PhieuNhapKho(int ngayNhap, String maPhieu, int soPhieu, String tenKH, String tenSP, int soLuong, String diaChi, long soDT, String eMail, long soTK)
 	{
 		super(maPhieu, soPhieu, tenKH, tenSP, soLuong, diaChi, soDT, eMail, soTK);
 		this.ngayNhap = ngayNhap;

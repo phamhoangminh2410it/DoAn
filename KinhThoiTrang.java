@@ -10,9 +10,9 @@ public class KinhThoiTrang extends KinhMat
 	{
 	}
 
-	public KinhThoiTrang(ArrayList <NhaCungCap> ncc, String tenTH, String tenSP, String maSP, String desCription, int soLuong, double giaBan, String nguonGoc)
+	public KinhThoiTrang(ArrayList <NhaCungCap> ncc, String tenTH, String tenSP, String maSP, String desCription, int soLuong, long giaSP, String nguonGoc)
 	{
-		super(tenTH, tenSP, maSP, desCription, soLuong, giaBan, nguonGoc);
+		super(tenTH, tenSP, maSP, desCription, soLuong, giaSP, nguonGoc);
 	}
 
 	public void setNhaCungCap(ArrayList <NhaCungCap> ncc)

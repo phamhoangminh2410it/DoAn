@@ -9,15 +9,15 @@ public class Phieu implements Serializable
 	private String tenSP;
 	private int soLuong;
  	private String diaChi;
- 	private int soDT;
+ 	private long soDT;
  	private String eMail;
- 	private int soTK;
+ 	private long soTK;
 
  	public Phieu()
  	{
  	}
 
- 	public Phieu(String maPhieu, int soPhieu, String tenKH, String tenSP, int soLuong, String diaChi, int soDT, String eMail, int soTK)
+ 	public Phieu(String maPhieu, int soPhieu, String tenKH, String tenSP, int soLuong, String diaChi, long soDT, String eMail, long soTK)
  	{
  		this.maPhieu = maPhieu;
  		this.soPhieu = soPhieu;
@@ -90,12 +90,12 @@ public class Phieu implements Serializable
  		return this.diaChi;
  	}
 
- 	public void setSoDienThoai(int soDT)
+ 	public void setSoDienThoai(long soDT)
  	{
  		this.soDT = soDT;
  	}
 
- 	public int getSoDienThoai()
+ 	public long getSoDienThoai()
  	{
  		return this.soDT;
  	}
@@ -110,12 +110,12 @@ public class Phieu implements Serializable
  		return this.eMail;
  	}
 
- 	public void setSoTaiKhoan(int soTK)
+ 	public void setSoTaiKhoan(long soTK)
  	{
  		this.soTK = soTK;
  	}
 
- 	public int getSoTaiKhoan()
+ 	public long getSoTaiKhoan()
  	{
  		return this.soTK;
  	}
@@ -129,9 +129,9 @@ public class Phieu implements Serializable
  		System.out.print("Nhap Ten San Pham: "); tenSP = phieu.nextLine();
  		System.out.print("Nhap So Luong: "); soLuong = phieu.nextInt(); phieu.nextLine();
  		System.out.print("Nhap Dia Chi: "); diaChi = phieu.nextLine();
- 		System.out.print("Nhap So Dien Thoai: "); soDT = phieu.nextInt(); phieu.nextLine();
+ 		System.out.print("Nhap So Dien Thoai: "); soDT = phieu.nextLong(); phieu.nextLine();
  		System.out.print("Nhap Email: "); eMail = phieu.nextLine();
- 		System.out.print("Nhap So Tai Khoan: "); soTK = phieu.nextInt();
+ 		System.out.print("Nhap So Tai Khoan: "); soTK = phieu.nextLong();
  	}
 
  	public void hienThongTin()

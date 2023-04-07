@@ -61,7 +61,7 @@ public class QuanLy
         
         public void TongGiaSanPhamKM()
         {
-                double tong = 0;
+                long tong = 0;
                 for (KinhMat x: kinh)
                 {
                         tong += x.getGiaSanPham() * x.getSoLuong();
@@ -592,7 +592,6 @@ public class QuanLy
 				((PhieuNhapKho) y).hienThongTin();
 			}
 		}
-                TongSoLuongConLai();
 	}
 
 	public void hienDanhSachPhieuXuatKho()

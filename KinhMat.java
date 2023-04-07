@@ -8,14 +8,14 @@ public class KinhMat implements Serializable
 	private String maSP;
 	private String desCription;
 	private int soLuong;
-	private double giaSP;
+	private long giaSP;
 	private String nguonGoc;
 
 	public KinhMat()
 	{
 	}
 
-	public KinhMat(String tenTH, String tenSP, String maSP, String desCription, int soLuong, double giaSP, String nguonGoc)
+	public KinhMat(String tenTH, String tenSP, String maSP, String desCription, int soLuong, long giaSP, String nguonGoc)
 	{
 		this.tenTH = tenTH;
 		this.tenSP = tenSP;
@@ -76,12 +76,12 @@ public class KinhMat implements Serializable
 		return this.soLuong;
 	}
 
-	public void setGiaSanPham(double giaSP)
+	public void setGiaSanPham(long giaSP)
 	{
 		this.giaSP = giaSP;
 	}
 
-	public double getGiaSanPham()
+	public long getGiaSanPham()
 	{
 		return this.giaSP;
 	}
@@ -104,7 +104,7 @@ public class KinhMat implements Serializable
 		System.out.print("Nhap Ma San Pham: "); maSP = kinhmat.nextLine();
 		System.out.print("Nhap Mo Ta San Pham: "); desCription = kinhmat.nextLine();
 		System.out.print("Nhap So Luong San Pham: "); soLuong = kinhmat.nextInt();
-		System.out.print("Nhap Gia Ban San Pham: "); giaSP = kinhmat.nextDouble(); kinhmat.nextLine();
+		System.out.print("Nhap Gia San Pham: "); giaSP = kinhmat.nextLong(); kinhmat.nextLine();
 		System.out.print("Nhap Nguon Goc San Pham: "); nguonGoc = kinhmat.nextLine();
 	}
 
@@ -115,7 +115,7 @@ public class KinhMat implements Serializable
 		System.out.println("Ma San Pham: " + maSP);
 		System.out.println("Mo Ta San Pham: " + desCription);
 		System.out.println("So luong San Pham: " + soLuong);
-		System.out.println("Gia Ban San Pham: " + giaSP);
+		System.out.println("Gia San Pham: " + giaSP);
 		System.out.println("Nguon Goc San Pham: " + nguonGoc);
 	}
 }
