@@ -373,15 +373,15 @@ public class DSKinhMat
 	{
 		System.out.println("._____________________________________________.");
                 System.out.println("|---------- PHAN THAY DOI THONG TIN ----------|");
-                System.out.println("|1. Sua thong tin Kinh Thuoc                  |");
-                System.out.println("|2. Xoa thong tin Kinh Thuoc                  |");
-                System.out.println("|3. Sua thong tin Kinh Bao Ho                 |");
-                System.out.println("|4. Xoa thong tin Kinh Bao Ho                 |");
-                System.out.println("|5. Sua thong tin Kinh Thoi Trang             |");
-                System.out.println("|6. Xoa thong tin Kinh Thoi Trang             |");
-                System.out.println("|7. Sua thong tin Kinh Ram                    |");
-                System.out.println("|8. Xoa thong tin Kinh Ram                    |");
-                System.out.println("|9. Sua nha cung cap Kinh Thuoc               |");
+                System.out.println("|1.  Sua thong tin Kinh Thuoc                 |");
+                System.out.println("|2.  Xoa thong tin Kinh Thuoc                 |");
+                System.out.println("|3.  Sua thong tin Kinh Bao Ho                |");
+                System.out.println("|4.  Xoa thong tin Kinh Bao Ho                |");
+                System.out.println("|5.  Sua thong tin Kinh Thoi Trang            |");
+                System.out.println("|6.  Xoa thong tin Kinh Thoi Trang            |");
+                System.out.println("|7.  Sua thong tin Kinh Ram                   |");
+                System.out.println("|8.  Xoa thong tin Kinh Ram                   |");
+                System.out.println("|9.  Sua nha cung cap Kinh Thuoc              |");
                 System.out.println("|10. Them nha cung cap Kinh Thuoc             |");
                 System.out.println("|11. Xoa nha cung cap Kinh Thuoc              |");
                 System.out.println("|12. Sua nha cung cap Kinh Bao Ho             |");
