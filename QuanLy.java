@@ -1024,7 +1024,7 @@ public class QuanLy
 		System.out.println("|16. Hien Thi Danh Sach Kinh Thoi Trang                                                    |");
 		System.out.println("|17. Hien Thi Danh Sach Kinh Ram                                                           |");
 		System.out.println("|18. Chinh Sua Thong Tin (Kinh Thuoc, Kinh Bao Ho, Kinh Thoi Trang, Kinh Ram, Nha Cung Cap)|");
-                System.out.println("|19. Sap Xep Danh Sach Kkinh Mat Theo So Luong                                             |");
+                System.out.println("|19. Sap Xep Danh Sach Kinh Mat Theo So Luong                                              |");
                 System.out.println("|20. Thong Ke Danh Sach Kinh Mat Co Nguon Goc 'USA'                                        |");
 		System.out.println("|21. Luu File Da Nhap (DSKinhMat)                                                          |");
 		System.out.println("|22. Doc Du Lieu Tu File (DSKinhMat)                                                       |");
