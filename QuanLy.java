@@ -1010,24 +1010,26 @@ public class QuanLy
 		System.out.println("|2.  Nhap Danh Sach Phieu Xuat Kho                                                         |");
 		System.out.println("|3.  Hien Thi Danh Sach Phieu Nhap Kho                                                     |");
 		System.out.println("|4.  Hien Thi Danh Sach Phieu Xuat Kho                                                     |");
-		System.out.println("|5.  Chinh Sua Thong Tin (Nhap Kho, Xuat Kho)                                              |");               
-		System.out.println("|6.  Sap Xep Danh Sach Phieu Theo So Phieu                                                 |");
-		System.out.println("|7.  Thong Ke Danh Sach Hoa Don Co Ten Khach Hang la 'MINH'                                |");
-                System.out.println("|8.  Luu File Da Nhap (DSPhieu)                                                            |");
-		System.out.println("|9.  Doc Du Lieu Tu File (DSPhieu)                                                         |");
-		System.out.println("|10. Nhap Danh Sach Kinh Thuoc Va Nha Cung Cap Cua Kinh Thuoc                              |");
-		System.out.println("|11. Nhap Danh Sach Kinh Bao Ho Va Nha Cung Cap Cua Kinh Bao Ho                            |");
-		System.out.println("|12. Nhap Danh Sach Kinh Thoi Trang Va Nha Cung Cap Cua Kinh Thoi Trang                    |");
-		System.out.println("|13. Nhap Danh Sach Kinh Ram Va Nha Cung Cap Cua Kinh Ram                                  |");
-		System.out.println("|14. Hien Thi Danh Sach Kinh Thuoc                                                         |");
-		System.out.println("|15. Hien Thi Danh Sach Kinh Bao Ho                                                        |");
-		System.out.println("|16. Hien Thi Danh Sach Kinh Thoi Trang                                                    |");
-		System.out.println("|17. Hien Thi Danh Sach Kinh Ram                                                           |");
-		System.out.println("|18. Chinh Sua Thong Tin (Kinh Thuoc, Kinh Bao Ho, Kinh Thoi Trang, Kinh Ram, Nha Cung Cap)|");
-                System.out.println("|19. Sap Xep Danh Sach Kinh Mat Theo So Luong                                              |");
-                System.out.println("|20. Thong Ke Danh Sach Kinh Mat Co Nguon Goc 'USA'                                        |");
-		System.out.println("|21. Luu File Da Nhap (DSKinhMat)                                                          |");
-		System.out.println("|22. Doc Du Lieu Tu File (DSKinhMat)                                                       |");
+                System.out.println("|5.  Hien Tat Ca Danh Sach Phieu (Nhap Kho, Xuat Kho)                                      |"); //vừa thêm vào tí thêm case
+		System.out.println("|6.  Chinh Sua Thong Tin (Nhap Kho, Xuat Kho)                                              |");               
+		System.out.println("|7.  Sap Xep Danh Sach Phieu Theo So Phieu                                                 |");
+		System.out.println("|8.  Thong Ke Danh Sach Hoa Don Co Ten Khach Hang la 'MINH'                                |");
+                System.out.println("|9.  Luu File Da Nhap (DSPhieu)                                                            |");
+		System.out.println("|10. Doc Du Lieu Tu File (DSPhieu)                                                         |");
+		System.out.println("|11. Nhap Danh Sach Kinh Thuoc Va Nha Cung Cap Cua Kinh Thuoc                              |");
+		System.out.println("|12. Nhap Danh Sach Kinh Bao Ho Va Nha Cung Cap Cua Kinh Bao Ho                            |");
+		System.out.println("|13. Nhap Danh Sach Kinh Thoi Trang Va Nha Cung Cap Cua Kinh Thoi Trang                    |");
+		System.out.println("|14. Nhap Danh Sach Kinh Ram Va Nha Cung Cap Cua Kinh Ram                                  |");
+		System.out.println("|15. Hien Thi Danh Sach Kinh Thuoc                                                         |");
+		System.out.println("|16. Hien Thi Danh Sach Kinh Bao Ho                                                        |");
+		System.out.println("|17. Hien Thi Danh Sach Kinh Thoi Trang                                                    |");
+		System.out.println("|18. Hien Thi Danh Sach Kinh Ram                                                           |");
+                System.out.println("|19. Hien Tat Ca Danh Sach Kinh Mat                                                        |"); //vừa thêm vào tí thêm case
+		System.out.println("|20. Chinh Sua Thong Tin (Kinh Thuoc, Kinh Bao Ho, Kinh Thoi Trang, Kinh Ram, Nha Cung Cap)|");
+                System.out.println("|21. Sap Xep Danh Sach Kinh Mat Theo So Luong                                              |");
+                System.out.println("|22. Thong Ke Danh Sach Kinh Mat Co Nguon Goc 'USA'                                        |");
+		System.out.println("|23. Luu File Da Nhap (DSKinhMat)                                                          |");
+		System.out.println("|24. Doc Du Lieu Tu File (DSKinhMat)                                                       |");
 		System.out.println(".----------------------- NHAN PHIM 0 DE EXIT! AND NO SEE YOU AGAIN ------------------------.");
 	}
 }

@@ -34,87 +34,95 @@ public class DoAn
 					a.hienDanhSachPhieuXuatKho();
 				} break;
                                 case 5:
+                                {
+                                        a.hienDanhSachPhieu();
+                                } break;
+                                case 6:
 				{
 					a.SuaDoiPhieu();
 				} break;
-                                case 6:
+                                case 7:
 				{
 					a.sapXepTheoSoPhieu();
 				} break;
-                                case 7:
+                                case 8:
 				{
 					a.hienPhieuTenKhachHang_MINH();
 				} break;
-                                case 8:
+                                case 9:
 				{
 					String tenFile;
 					System.out.print("\nNhap Ten File Muon Luu: "); sc.nextLine();
 					tenFile = sc.nextLine();
 					a.ghiFileP(tenFile);
 				} break;
-                                case 9:
+                                case 10:
 				{
 					String tenFile;
 					System.out.print("Nhap Ten File Muon Doc: "); sc.nextLine();
 					tenFile = sc.nextLine();
 					a.docFileP(tenFile);
 				} break;
-                                case 10:
+                                case 11:
 				{
 					b = new KinhThuoc();
 					a.themDSKinhMat(b);
 				} break;
-                                case 11:
+                                case 12:
 				{
 					b = new KinhBaoHo();
 					a.themDSKinhMat(b);
 				} break;
-                                case 12:
+                                case 13:
 				{
 					b = new KinhThoiTrang();
 					a.themDSKinhMat(b);
 				} break;
-                                case 13:
+                                case 14:
 				{
 					b = new KinhRam();
 					a.themDSKinhMat(b);
 				} break;
-                                case 14:
+                                case 15:
 				{
 					a.hienDanhSachKinhThuoc();
 				} break;
-                                case 15:
+                                case 16:
 				{
 					a.hienDanhSachKinhBaoHo();
 				} break;
-                                case 16:
+                                case 17:
 				{
 					a.hienDanhSachKinhThoiTrang();
 				} break;
-                                case 17:
+                                case 18:
 				{
 					a.hienDanhSachKinhRam();
 				} break;
-                                case 18:
+                                case 19:
+                                {
+                                        a.hienDanhSachKinhMat();
+                                }
+                                case 20:
 				{
 					a.SuaDoiKM();
 				} break;
-                                case 19:
+                                case 21:
                                 {
                                         a.sapXepTheoSoLuongKinhMat();
                                 } break;
-                                case 20:
+                                case 22:
                                 {
                                         a.hienKinhMatNguonGoc_USA();
                                 } break;
-                                case 21:
+                                case 23:
 				{
 					String tenFile;
 					System.out.print("\nNhap Ten File Muon Luu: "); sc.nextLine();
 					tenFile = sc.nextLine();
 					a.ghiFileKM(tenFile);
 				} break;
-                                case 22:
+                                case 24:
 				{
 					String tenFile;
 					System.out.print("Nhap Ten File Muon Doc: "); sc.nextLine();
