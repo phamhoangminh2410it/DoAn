@@ -102,7 +102,7 @@ public class DoAn
                                 case 19:
                                 {
                                         a.hienDanhSachKinhMat();
-                                }
+                                } break;
                                 case 20:
 				{
 					a.SuaDoiKM();
